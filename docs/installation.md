@@ -12,12 +12,12 @@
 
 ### Step 1: Install Python via Anaconda
 
-#### Install [anaconda](https://www.anaconda.com/distribution/), or use miniconda3 for MacOS users (see below)
+#### Install [anaconda](https://www.anaconda.com/download/), or use miniconda3 for MacOS users (see below)
 
 - Anaconda is an easy way to install Python and additional packages across various operating systems. With Anaconda you create all the dependencies in an [environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) on your machine.
 
 ```{Hint}
-Download anaconda for your operating system: https://www.anaconda.com/distribution/.
+Download anaconda for your operating system: https://www.anaconda.com/download.
 ```
 
 - IF you use a M1 or M2 chip in your MacBook with v12.5+ (typically 2020 or newer machines), you should use **miniconda3,** which operates with the same principles as anaconda. This is straight forward and explained in detail here: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html. But in short, open the program "terminal" and copy/paste and run the code that is supplied below.
