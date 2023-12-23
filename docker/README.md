@@ -77,7 +77,7 @@ Test docker:
        $ sudo systemctl daemon-reload
        $ sudo systemctl restart docker
 
-    
+
 **(2)** Add your user to the docker group (https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
 Quick guide  to create the docker group and add your user: 
 Create the docker group.
@@ -88,6 +88,10 @@ Add your user to the docker group.
     $ sudo usermod -aG docker $USER
 
 (perhaps restart your computer (best) or (at min) open a new terminal to make sure that you are added from now on)
+
+It may also be possible to activate changes with the following:
+
+    $ newgrp docker
 
 ## Acknowledgements
 
